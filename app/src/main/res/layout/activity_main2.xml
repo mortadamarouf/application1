@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#582BCE"
+    tools:context=".MainActivity2">
+
+
+    <TextView
+        android:id="@+id/TextView1a2"
+        android:layout_width="389dp"
+        android:layout_height="52dp"
+        android:text="Create profile to start your first ToDo List"
+        android:textColor="#ffff"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="102dp"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/TextView2a2"
+        android:layout_width="384dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="32dp"
+        android:background="#8357DC"
+        android:hint="Your name"
+        android:paddingLeft="26dp"
+        android:paddingTop="14dp"
+        android:paddingBottom="15dp"
+        android:textColorHint="#ffff"
+        android:textSize="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/TextView1a2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+        android:id="@+id/TextView3a2"
+        android:layout_width="384dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="36dp"
+        android:background="#8357DC"
+        android:hint="Password"
+        android:paddingLeft="26dp"
+        android:paddingTop="14dp"
+        android:paddingBottom="15dp"
+        android:textColorHint="#ffff"
+        android:textSize="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/TextView2a2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+        android:id="@+id/TextView4a3"
+        android:layout_width="384dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="40dp"
+        android:background="#8357DC"
+        android:hint="Your email address"
+        android:paddingLeft="26dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="18dp"
+        android:textColorHint="#ffff"
+        android:textSize="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/TextView3a2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/TextView5a4"
+        android:layout_width="292dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="44dp"
+        android:background="#FC6208"
+        android:paddingTop="17dp"
+        android:paddingBottom="14dp"
+        android:paddingLeft="80dp"
+        android:text="Create your profile"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/TextView4a3"
+        tools:layout_editor_absoluteX="71dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/TextView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Already have an account?"
+        android:textColor="#ffff"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/TextView5a4"
+        tools:layout_editor_absoluteX="126dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/TextView7a2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Log in"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/TextView6"
+        tools:layout_editor_absoluteX="186dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
